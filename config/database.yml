@@ -1,0 +1,16 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: rails_basic_contacts_dev
+  pool: 5
+  username: rails_basic_contacts
+  password:
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: rails_basic_contacts_prod
+  pool: 5
+  username: rails_basic_contacts
+  password:
+

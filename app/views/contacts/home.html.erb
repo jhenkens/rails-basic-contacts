@@ -1,0 +1,7 @@
+<h1>Search for a contact</h1>
+<%= form_tag({controller: 'contacts', action: 'search'}, method: 'get') do %>
+    <%= search_field(:contact, :search_field) %>
+    <% # label_tag(:q, "Search for:") %>
+    <% #= text_field_tag(:q) %>
+    <%= submit_tag("Search") %>
+<% end %>
